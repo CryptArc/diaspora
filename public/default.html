@@ -13,7 +13,7 @@
       }
       h1 {
         color: #111;
-        text-shadow: 2px 0 0 white;
+        position: inherit; !important
       }
 
       h2 {
@@ -93,13 +93,14 @@
         cursor: help;
       }
 
+      header {
+        z-index: inherit; !important
+      }
+
     </style>
   </head>
 
   <body>
-<div id="sopa-protest" style="position: fixed; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; text-align: center; color: #fff; font-family: Verdana,sans-serif; visibility: hidden; -moz-opacity: 0.9; filter:alpha(opacity=90); opacity: 0.9; z-index: 1010;"><p><a href="http://www.piratenpartei.de/Pressemitteilung/piraten-gehen-offline-%E2%80%93-protest-gegen-zwei-neue-zensurgesetze-aus-den-usa"><img src="http://sebastianbartsch.de/pic/stop-sopa.png" style="border: none" alt="Stop SOPA & PIPA!" title="Protest gegen zwei neue Zensurgesetze aus den USA" align="top" width="864" height="156" /></a><a href="javascript:HideTodestag();" style="color: #fff; font-size: 12px;">X Schliessen</a></p></div><script type="text/javascript"><!--
-function ShowHideTodestag() {id="sopa-protest"; obj = (document.getElementById ? document.getElementById(id) : (document.all ? document.all[id] : (document.layers ? document.layers[id] : null))); obj.style.visibility = (obj.style.visibility == 'visible' ? 'hidden' : 'visible');}; function HideTodestag() {ShowHideTodestag(); document.cookie='OnlineDemoGesehen=1;path=/'}; if(document.cookie.indexOf('OnlineDemoGesehen=1')==-1){ShowHideTodestag()};
-// --></script>
     <header class='landing'>
     <div class='container' style='position:relative;'>
     <a href="/"><img alt="Logo_large" class="diaspora_header_logo" height="32px" src="/images/logo_large.png?10fa7ba02" width="321px" /></a>
